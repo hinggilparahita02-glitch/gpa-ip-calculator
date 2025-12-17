@@ -19,8 +19,7 @@ Sebagai pengguna, saya ingin:
 
 ## 3. SRS (Software Requirements Specification)
 ### 3.1 Lingkup Sistem
-Sistem berfungsi sebagai kalkulator IPS sederhana untuk satu semester, dengan fokus pada kemudahan input data, visualisasi hasil IPS, dan pengelolaan daftar mata kuliah.<img width="550" height="397" alt="Screenshot 2025-12-16 151038" src="https://github.com/user-attachments/assets/0d6f4a61-437f-4997-96c9-b3efc3d552cc" />
-
+Sistem berfungsi sebagai kalkulator IPS sederhana untuk satu semester, dengan fokus pada kemudahan input data, visualisasi hasil IPS, dan pengelolaan daftar mata kuliah.
 
 ### 3.2 Kebutuhan Fungsional
 #### a. Manajemen Mata Kuliah
@@ -42,12 +41,9 @@ Sistem berfungsi sebagai kalkulator IPS sederhana untuk satu semester, dengan fo
   
   <img width="144" height="44" alt="Screenshot 2025-12-17 104546" src="https://github.com/user-attachments/assets/3e8b712b-ff79-488c-adcb-e00508fa5cd6" />
 
-  dan menampilkannya dalam skala 4.0 beserta label kualitas singkat, misalnya “Sangat Baik”.
-
 #### d. Ringkasan & Tampilan Dashboard
 - Menampilkan kartu **IPS Saat Ini** yang berisi:
   - Nilai IPS (misalnya 3.75 / 4.0).  
-  - Label kualitas seperti “Sangat Baik”, “Baik”, dll berdasarkan rentang IPS.
 - Menampilkan kartu **Total Mata Kuliah** yang sedang dihitung pada semester tersebut.
 - Menampilkan tabel daftar mata kuliah dengan kolom:
   - Nama Mata Kuliah  
@@ -126,9 +122,6 @@ sequenceDiagram
     Calculator-->>Web: Hitung ulang IPS
     Web->>User: Tampilkan tabel & IPS yang sudah diperbarui
 ```
-
-
-***
 
 ## 5. Mock-Up
 ### a. Tampilan Dashboard
